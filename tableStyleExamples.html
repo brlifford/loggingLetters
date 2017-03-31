@@ -1,0 +1,73 @@
+<head>
+	<style type="text/css">
+		table {
+			width: 100%;
+		}
+		
+		th {
+			height: 25px;
+		}
+	
+		table, th, td {
+			border: 1px solid black;
+			border-collapse: collapse;
+			padding-top: 5px;
+			padding-right: 0px;
+			padding-bottom: 5px;
+			padding-left: 10px;
+		}
+		
+		tfoot td {
+			text-align: center;
+		}
+		
+		tbody td {
+			vertical-align: top;
+		}
+		
+		th {
+			text-align: left;
+		}
+		
+		tbody tr:nth-child(even) {
+			background-color: LemonChiffon;
+		}
+		
+		tbody tr:nth-child(odd) {
+			background-color: LawnGreen;
+		}
+		
+	</style>
+</head>
+<table>
+	<caption>Books to Read</caption>
+	<thead>
+		<tr>
+			<th>Position</th>
+			<th>Title</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td>Hello, World</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Digital Fortress</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Automating Microsoft Windows Server 2008 R2 with Windows PowerShell 2.0</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>Apocalypse Pi</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="2">Table Footer Text</td>
+		</tr>
+	</tfoot>
+</table>
